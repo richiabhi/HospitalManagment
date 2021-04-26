@@ -1,0 +1,117 @@
+<html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script>
+var img=["8.jpg","syringe.jpg","baby.jpg","gloves.jpg"];
+var i=0;
+function slide()
+{
+//alert("Hii");
+var div=document.getElementById("slider");
+div.style.backgroundImage="url('images/"+img[i]+"')";
+i++;
+if(img.length==i)
+{
+i=0;
+}
+window.setTimeout("slide()",2000);
+}
+</script>
+<style>
+.foot li
+{
+font-size:30px;
+}
+.foot li a
+{
+color:#220843;
+text-decoration:none;
+}
+.foot li a:hover
+{
+font-size:110%;
+}
+</style>
+</head>
+<body onload="slide()">
+<div id="outer">
+<div id="header">
+<div id="logo">
+<img src="images/logo.png" height="200px" width="100%" alt="logo"/>
+</div>
+<div id="heading">
+<p align="center" style="font-size:40px;font-family:tahoma;"><b>Sanjay Gandhi Postgraduate Institute of Medical Sciences<b></p>
+</div>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.py">About Us</a></li>
+		<li><a href="doc.py">Doctor</a></li>
+		<li><a href="patient.py">Patient</a></li>
+		<li><a href="login.py">Login</a></li>
+		<li><a href="conus.py">Contact Us</a></li>
+	</ul>
+</div>
+<br/><div id="slider"></div>
+<div id="contenthead">
+<marquee scrollamount="10" behavior="alternate" style="color:#220843;font-size:40px;font-family:gabriola;">Our Top Faculties</marquee>
+</div>
+<div id="content" style="color:#220843">
+<div class="column">
+<img src="images/DrPKGoel-large.jpg" height="200px" width="100%" align="justify"/>
+<h2 align="center">Dr.P.K. Goel</h2>
+<p align="center">Head - Department of Cardiology</p>
+<p align="center">The department of Cardiology was amongst the first departments established at SGPGIMS, Lucknow, in late 1987. In October 1987, the first patients started to trickle into the OPD while indoor admission facilities got underway in mid 1988 in the general hospital.</p>
+</div>
+
+<div class="column">
+<img src="images/drkuntal.jpg" height="200px" width="100%" align="justify"/>
+<h2 align="center">Dr.Kuntal Kanti Das</h2>
+<p align="center">Asst. Professor - Department of Neurosurgery</p>
+<p align="center">The Department of Neurosurgery currently has 7 faculty members and 3 post doctoral fellows(PDFs). It has had a total of 18 faculty members between the years 1995 to 2015. The list is inclusive of 2 neuro-otologists and 3 neuro-opthalmologists who were members of the department.</p>
+</div>
+<div class="column">
+<img src="images/Shagun Mishra.jpg" height="200px" width="100%" align="justify"/>
+<h2 align="center">Dr.Shagun Mishra</h2>
+<p align="center">Head - Department of Radiation Oncology</p>
+<p align="center">She obtained graduation from MGIMS, Wardha and post-graduation in Radiotherapy from BHU, Varanasi. She has done Senior Residency from Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow. Thereafter, she worked as Junior Consultant at Mahavir Cancer Santhan.</p>
+</div>
+<div class="column">
+<img src="images/Jayesh_Sardhara2.jpg" height="200px" width="100%" align="justify"/>
+<h2 align="center">Dr.Jayesh Sardhana</h2>
+<p align="center">Head - Department of Neurosurgery
+<p align="center">The department of Cardiology was amongst the first departments established at SGPGIMS, Lucknow, in late 1987. In October 1987, the first patients started to trickle into the OPD while indoor admission facilities got underway in mid 1988 in the general hospital.</p>
+</div>
+</div>
+<div id="footer">
+<div class="foot" style="color:#220843;">
+<h2 align="center">About SGPGI</h2>
+<p align="center">Sanjay Gandhi PostGraduate Institute of Medical Sciences is located in Lucknow.It was established in 1983 and is named after Sanjay Gandhi.Our institute offers degrees which are recoginized by Medical Council Of India.</p>
+<p align="center"><a href="about.py">Read More >></a></p>
+</div>
+<div class="foot">
+<h2 align="center">Links</h2>
+<ul>
+<li><a href="facebook.com">Facebook</a></li>
+<li><a href="instagram.com">Instagram</a></li>
+<li><a href="twitter.com">Twitter</a></li>
+<li><a href="web.whatsapp.com">Whatsapp</a></li>
+</ul>
+</div>
+<div class="foot" style="color:#220843;">
+<h2 align="center">Reach Us</h2>
+<p align="center">SGPGI Campus,Raebareli Rd, Haibat Mau Mawaiya, Lucknow, Uttar Pradesh 226014</p>
+<p align="center">Email us : <u>sgpgi@yahoo.com</u></p>
+<p align="center">Phone : 0522 266 8700</p>
+</div>
+</div>
+<div id="last">
+<hr/>
+Copyright &copy; 2014-All Rights Reserved-SGPGI Lucknow<br/>
+Designed & Developed By : Abhishek Namdeo<br/>
+Softpro India Pvt. Ltd.
+</div>
+</div>
+</body>
+</html>

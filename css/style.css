@@ -1,0 +1,120 @@
+body
+{
+	font-family:Calibri;
+	background-color:lightyellow;
+}
+#outer
+{
+	height:auto;
+	width:100%;
+}
+#header
+{
+	height:200px;
+	width:100%;
+}
+#menu
+{
+	height:50px;
+	width:100%;
+	border-radius:10px;
+	font-size:25px;
+	margin-top:-20px;
+	margin-bottom:-10px;
+}
+#slider
+{
+	height:400px;
+	width:1000px;
+	background-color:lightgrey;
+	margin:0px 50px 50px 150px;
+	border-radius:50px 5px 50px 50px;
+}
+#contenthead
+{
+	height:50px;
+	width:100%;
+}
+#content
+{
+	height:600px;
+	width:100%;
+	
+}
+#footer
+{
+	
+	height:400px;
+	width:100%;
+}
+#logo
+{
+	
+	height:200px;
+	width:15%;
+	float:left;
+	background-color:white;
+}
+#heading
+{
+	height:200px;
+	width:85%;
+	float:right;
+	color:white;
+	background-color:#024753;
+	border-radius:50px 5px 50px 50px;
+}
+#menu ul
+{
+	list-style-type:none;
+}
+#menu ul li
+{
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:5px;
+	background-color:#024753;
+	border-radius:50px 5px 50px 50px;
+}
+#menu ul li a
+{
+	color:white;
+	text-decoration:none;
+}
+#menu ul li:hover
+{
+	font-size:110%;
+}
+.foot
+{
+	height:398px;
+	width:32%;
+	margin-left:15px;
+	float:left;
+	border-radius:50px 5px 50px 50px;
+	box-shadow:1px 5px 5px darkblue;
+	font-family:gabriola;
+	font-size:20px;
+}
+.column
+{
+	height:500px;
+	width:20%;
+	float:left;
+	margin:20px;
+	padding:10px;
+	border-radius:50px 5px 50px 50px;
+	box-shadow:1px 5px 5px grey;
+	font-family:gabriola;
+}
+#last
+{
+	height:100px;
+	width:100%;
+	background-color:grey;
+	border-radius:50px 5px 50px 50px;
+	color:white;
+	font-size:17px;
+	text-align:center;
+}

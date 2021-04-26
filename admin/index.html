@@ -1,0 +1,73 @@
+<html>
+   <head>
+	<style>
+	body
+{
+	font-family:Calibri;
+}
+#outer
+{
+	height:auto;
+	width:100%;
+}
+#header
+{
+	height:200px;
+	width:100%;
+}
+#logo
+{
+	
+	height:200px;
+	width:15%;
+	float:left;
+	background-color:white;
+}
+#heading
+{
+	height:200px;
+	width:85%;
+	float:right;
+	color:white;
+	background-color:#024753;
+	border-radius:50px 5px 50px 50px;
+}
+#content
+{
+	height:250px;
+	width:40%;
+	background-color:#024753;
+	color:white;
+	border-radius:0px 50px 0px 50px;
+	box-shadow:10px 10px 20px black;
+}
+	</style>
+   </head>
+   <body>
+   <div id="outer">
+<div id="header">
+<div id="logo">
+<img src="logo.png" height="200px" width="100%" alt="logo"/>
+</div>
+<div id="heading">
+<p align="center" style="font-size:50px;"><b>Sanjay Gandhi Postgraduate Institute of Medical Sciences<b></p>
+</div>
+</div>
+<center>
+<div id="content">
+     <h1>Admin Login Panel</h1>
+	 <br>
+	 <form action="alogcode.py" method="post">
+	   Enter Admin Id : <input type="text" name="aid" /><br><br>
+	   Enter Password : <input type="password" name="pass" />
+	   <br/><br/>
+	   <input type="submit" value="Login" style="color:#024753;height:30px;width:70px;background-color:white;"/>
+	   <br/>
+	   <br/>
+	   <a href="http://localhost:70/Sgpgi/" style="color:white;">Continue To Main Website</a>
+	 </form>
+	 </div>
+	 </center>
+	 </div>
+   </body>
+</html>
